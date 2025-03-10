@@ -41,7 +41,7 @@ class AppshadowContainer extends StatelessWidget {
             decoration: BoxDecoration(
                 color: color ?? AppColors.white,
                 border: Border.all(
-                    width: border ? borderWidth ?? 1.0 : 0,
+                    width: border ? borderWidth ?? 0.5 : 0,
                     color: borderColor ?? Colors.transparent),
                 image: image,
                 boxShadow: [

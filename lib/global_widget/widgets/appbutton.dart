@@ -45,8 +45,8 @@ class Appbutton extends StatelessWidget {
             : child ??
                 AppExoText(
                     text: label ?? '',
-                    color: labelColor ?? AppColors.white,
+                    color: labelColor ?? AppColors.black,
                     fontSize: labelSize ?? 16,
-                    fontWeight: labelWeight ?? FontWeight.w600));
+                    fontWeight: labelWeight ?? FontWeight.w700));
   }
 }

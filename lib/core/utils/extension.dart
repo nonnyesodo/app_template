@@ -1,11 +1,24 @@
- 
+import 'package:medical_app/global_widget/export.dart';
+
 extension StringExtension on String {
   String generateAsterisks() {
     return '*' * length;
   }
 }
 
- 
+extension SvgExtension on String {
+  /// SVG with color
+  SvgPicture svg({Color? color, double? height, double? width, BoxFit? fit}) =>
+      SvgPicture.asset(
+        this,
+        fit: fit ?? BoxFit.scaleDown,
+        // ignore: deprecated_member_use
+        color: color,
+        height: height,
+        width: width,
+      );
+}
+
 /// For validation
 extension ValidatingExtensions on String {
   String? validateAnyField({String? field}) {

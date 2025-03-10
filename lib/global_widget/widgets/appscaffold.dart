@@ -16,7 +16,7 @@ class AppScaffold extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         bottomSheet: bottomSheet,
-        backgroundColor: AppColors.white,
+        backgroundColor: color ?? AppColors.white,
         floatingActionButton: floatingActionButton,
         appBar: PreferredSize(
             preferredSize: Size.fromHeight(0.h),

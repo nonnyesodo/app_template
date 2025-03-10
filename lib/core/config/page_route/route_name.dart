@@ -1,5 +1,7 @@
 enum RouteName {
-  login('/'),
+  splash('/'),
+  login('/login'),
+  auth('/auth'),
   botomNav('/bottom_nav'),
   doctoctDetail('/doctor_detail');
 

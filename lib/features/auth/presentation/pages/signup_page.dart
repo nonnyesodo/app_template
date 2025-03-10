@@ -4,8 +4,8 @@ import 'package:medical_app/core/utils/extension.dart';
 import 'package:medical_app/features/auth/presentation/bloc/cubit/auth_cubit.dart';
 import 'package:medical_app/global_widget/export.dart';
 
-class LoginPage extends StatelessWidget {
-  LoginPage({super.key});
+class SignupPage extends StatelessWidget {
+  SignupPage({super.key});
 
   final formKey = GlobalKey<FormState>();
 

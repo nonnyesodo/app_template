@@ -1,7 +1,7 @@
 export 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:google_fonts/google_fonts.dart'; 
+import 'package:google_fonts/google_fonts.dart';
 
 class AppExoText extends StatelessWidget {
   const AppExoText(
@@ -30,7 +30,7 @@ class AppExoText extends StatelessWidget {
         textAlign: textAlign,
         maxLines: maxLines,
         overflow: TextOverflow.ellipsis,
-        style: GoogleFonts.exo(
+        style: GoogleFonts.inter(
             color: color ?? Theme.of(context).textTheme.bodyLarge!.color,
             fontWeight: fontWeight ?? FontWeight.w400,
             fontSize: fontSize?.sp ?? 14.sp,
